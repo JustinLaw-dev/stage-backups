@@ -1,0 +1,2503 @@
+/* 	show menu */
+/* 	#menu-item-4422 .menu {
+  		display: flex !important;  
+	} */
+
+
+/* New menu */
+@media screen and (min-width: 40em) {
+  #site-navigation {
+    background: -webkit-gradient(linear,left top,left bottom,from(red),to(#0a0a0a));
+    background: linear-gradient(red,#0a0a0a);
+  }
+	
+	#main-nav li {
+		background: transparent;
+	}
+	
+	#main-nav li > a {
+		color: white !important;
+		border-bottom: none;
+	}
+	
+	#site-navigation .menu .is-active > a {
+		background: none;
+	}
+	
+	#menu-item-6961 .menu {
+		width: 600px;
+		height: 450px !important;
+	}
+	#menu-item-6961 .is-dropdown-submenu > li {
+		height: 100%;
+	}
+	#menu-item-6961 .cell {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+/* title nav events menu */
+#menu-item-6961 ul.js-dropdown-active {
+/* 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 27rem !important;
+	width: 43.5rem;
+	right: -22rem; */
+}
+
+	
+}
+
+/* end new menu */
+
+
+#main-nav .nav-title {
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 640px) {
+	#site-navigation .menu li a {
+		font-size: 1.5rem;
+	}
+	
+	#site-navigation #main-nav .is-dropdown-submenu.menu a {
+		font-size: 1rem;
+		width: 100%;
+	}
+}
+
+.calendar img {
+	max-width: 100px;
+}
+
+/* hide tile scrollbar */
+.hero-tiles > div {
+	overflow-x: hidden !important;
+}
+
+.input-group-button{
+	color: #000;
+}
+
+.title-logos {
+	background: transparent;
+	border-right: none;
+	max-height: 70px; 
+}
+
+.wp-image-51 {
+		width: 100vw;
+		height: 80vh;
+		object-fit: cover;
+	filter:brightness(0.3);
+ }
+
+.wp-image-1212 {
+	max-height: 60vh;
+	object-fit: cover;
+}
+.register-button a,.register-button span {
+	color: white;
+	font-weight: bold;
+}
+
+
+#site-navigation.side-slide-menu-wrapper .downplay a {
+	background: #e2e2e2;
+	border: none;
+	color: black;
+    /* Old browsers */
+    background: linear-gradient(to right, #eb0707 50%, #e2e2e2 50%);
+    background-size: 200% 100%;
+    background-position:right bottom; 
+     transition:all .3s ease; 
+}
+
+
+#site-navigation.side-slide-menu-wrapper .downplay {
+		border-top: none;
+	 border-left: 1px solid red;
+}
+
+#site-navigation.side-slide-menu-wrapper .downplay a:hover {
+	background: red;
+	background-position: left bottom;
+}
+
+
+.downplay.current-menu-item {
+	background: #e2e2e2;
+}
+@media screen and (max-width: 640px) {
+	
+.downplay.current-menu-item {
+	background: #3a3a3a;
+}
+	
+	
+ #site-navigation #main-nav.menu .current-menu-item a{
+	color: #aaaaaa !important;
+}
+}
+
+.btn-section div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-top: 2rem;
+}
+.btn-section .button {
+	border-color: red;
+	background: red;
+	color: white;
+}
+
+.btn-section .button:hover {
+	background: white;
+	color: red;
+}
+
+#slb_submit_btn {
+	background: red;
+}
+
+#slb_submit_btn:hover {
+	border: 2px solid transparent;
+}
+
+.stat-table {
+	border-color: red;
+}
+
+.stat-table tr {
+	border-bottom: 1px solid #cacaca !important;
+}
+
+@media screen and (max-width:640px) {
+.stat-header__heading {
+	font-size: 2rem;
+	}
+	.stat-table .flex.item-center div a{
+		flex-direction: column;
+		align-items: start;
+	}
+	
+	 .cts_tb {
+        table-layout: fixed; 
+    }
+ .cts_tb thead {
+        display: table;
+        width: 100vw;
+    }
+
+   .cts_tb td:nth-child(2) {
+        position: relative;
+        left: 15vw;
+    }
+
+   .cts_tb td:nth-child(3) {
+        position: relative;
+        left: 8vw;
+    }
+
+    .cts_tb img {
+        max-width: 100px;
+        width: 100px !important;
+        height: 80px !important;
+    }
+    
+    /* Team name */
+   .cts_tb span:not([class]) {
+        width: 100px;
+    }
+
+     .cts_box_score {
+        flex-direction: column;
+    } 
+	
+		/* CTS Mobile DCP */
+     .cts_tb .flex {
+       flex-direction: column;
+       width: 50%;
+    }
+
+     .cts_box_score .flex {
+        width: 100%;
+     }
+	
+	#dcp-form div{
+    flex-wrap: wrap;
+		margin-bottom: .5rem;
+  }
+	
+	.product--thestage {
+		flex-direction: column;
+	}
+	
+	.product--thestage .wp-container-1.wp-block-column {
+		font-size: 16px;
+	}
+	
+	#statleader-form .small-12 {
+		width: 100% !important;
+	}
+	#statleader-form .small-padding-right {
+		padding-right: 0;
+	}
+	
+	.stat-table {
+		position: relative;
+		left: -20px;
+	}
+}
+.separate .tabs-title > a[aria-selected="true"] {
+	background: red;
+	color: white;
+}
+#allTournLabel {
+	background: red;
+}
+
+.tournamentAwards .award-data__td {
+	background-image: linear-gradient(rgb(255, 30, 48), rgb(255, 59, 85) 40%, rgb(255, 255, 255) 40%)
+}
+
+.player_award_label_mvp {
+	color: black !important;
+}
+.is-dropdown-submenu {
+	height: auto !important;
+}
+
+/* temp sidebar fix */
+.side-slide-menu-wrapper #main-nav {
+	height: auto;
+}
+
+/* temp mobile subheading fix */
+#main-nav .nav-title {
+	color: red;
+	border-bottom: 1px solid red;
+/* 	font-size: 90%; */
+}
+
+.events-container {
+	height: 300px;
+}
+.events-container div {
+	display: flex;
+	flex-direction: column; 
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.act-link {
+	margin-top: .2rem;
+}
+
+
+.is-submenu-item div::after {
+	font-size: 80%;
+	position: relative;
+ 	left: 10px;
+	top: -7px;
+	color: #444444;
+}
+
+/* MENU */
+.stats-menu {
+	display: none;
+}
+
+#menu-item-22 .nested a {
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+	  padding: 0.26rem 0.6rem !important;
+}
+
+#menu-item-22 .is-submenu-item{
+  background: white !important;
+}
+
+#menu-item-22 .menu-item a{
+	position: relative;
+}
+
+@media screen and (min-width: 640px) {
+	#menu-item-22 .menu {
+		width: 980px !important;
+	}
+	#menu-item-22 .nested {
+		max-height: 400px;
+	  display: flex;
+		flex-direction: column;
+	  flex-wrap: wrap;
+	}
+	#menu-item-22 .menu-item {
+		width: 38%;
+	}
+}
+
+.menu-item-type-post_type:hover{
+/* 	border: rgba(235, 7, 7,.9) solid 1px;
+    background: linear-gradient(rgba(235, 7, 7, 0.2), rgba(235, 7, 7, 0.6)); */
+	border: none;
+	background: none;
+}
+
+#menu-item-22 .menu-item-type-post_type > a:hover{
+	border: rgba(235, 7, 7,.9) solid 1px;
+    background: linear-gradient(rgba(235, 7, 7, 0.2), rgba(235, 7, 7, 0.6));
+}
+
+#main-nav .is-dropdown-submenu a:hover {
+    background: none;
+	border: none;
+}
+.is-dropdown-submenu-item .current-menu-item {
+    background: linear-gradient(rgba(235, 7, 7, 0.2), rgba(235, 7, 7, 0.6));
+}
+
+
+small.block.subheader{
+	display: none
+}
+
+#menu-item-2996 a::before{ 
+	position:absolute;
+	left: -2.7rem;
+	top: 0;
+	z-index: 1;
+	  content: '';
+  background: url(http://thestagecircuit.com/wp-content/uploads/2022/12/Stage-Final-Act-Logo.png) no-repeat;
+  background-size: 40px 37px;
+/* 	margin-left: -7px; */
+  padding-left: 40px; 
+	padding-bottom: 38px;
+}
+
+/* final act youth */
+#menu-item-3006 a::before{ 
+	position:absolute;
+	left: -2.7rem
+	top: 0;
+	z-index: 1;
+	  content: '';
+  background: url(http://thestagecircuit.com/wp-content/uploads/2022/12/Stage-Final-Act-Logo-1.png) no-repeat;
+  background-size: 40px 37px;
+	margin-left: -7px;
+  padding-left: 40px; 
+	padding-bottom: 38px;
+}
+
+#menu-item-3006{
+	padding-left: 30px;
+	padding-right: 17px;
+}
+
+#menu-item-3006::after {
+	content: 'Jul 11-14, 2024 \A OGP Anaheim';
+	white-space: pre-wrap;
+	display: block;
+line-height: 1;}
+
+#menu-item-3041 a::before{ 
+	position:absolute;
+	left: -2.7rem !important;
+	top: 0 !important;
+	z-index: 1;
+	  content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/03/NorCalLive-300x400-1.png) no-repeat;
+  background-size: 50px 39px;
+/* 	margin-left: -10px; */
+  padding-left: 42px; 
+	padding-bottom: 38px;
+}
+
+#menu-item-3041{
+	padding-left: 30px;
+	padding-right: 28px;
+}
+
+#menu-item-3041::after {
+	content: 'Jul 15-16, 2023 \A OGP Oakland';
+	white-space: pre-wrap;
+	display: block;
+line-height: 1;}
+
+@media (min-width: 782px){
+    .parent-2 .wp-block-columns.is-layout-flex.wp-container-9 {
+    max-width: 552px;
+    margin-left: 10px;
+    }
+}
+
+/* 	norcal live */
+	#menu-item-3041 a::before {
+    top: 0px !important;
+		left: -3rem !important;
+	}
+	.wp-image-51 {
+		width: 100%;
+		height: 44vh;
+		object-fit: cover;
+		object-position: 49%; 
+	}
+	
+	.parent-2 {
+		width: 100%;
+	}
+	
+	
+
+	
+.events-container div:first-of-type .date{
+/* 	margin-top: 1.4rem; */
+}
+	
+	#site-navigation #main-nav .is-dropdown-submenu.menu a {
+		color: #555555;
+	}
+	.parent-2 .wp-block-columns.is-layout-flex.wp-container-9{
+	  width: 50%;
+		position: absolute;
+		left: 100px;
+		font-size: 10px;	
+	}
+	.parent-2 .grid-x.align-center {
+    width: 60%;
+    margin-left: 85px;
+}
+}
+	
+	.hero__sub-heading {
+		color: white;
+	}
+
+	h2 {
+		position: relative;
+	}
+
+
+.img-3 {
+    width: 13%;
+}
+
+/* OGP logo */
+.img-5 {
+	position: relative;
+	left: 2%;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1400px) {
+	.wp-image-51 {
+		height: 130vh;
+	}
+}
+
+@media screen and (min-width: 1401px) and (max-width: 2000px) {
+	.wp-image-51 {
+		width: 100vw;
+		height: 76vh;
+	}
+}
+
+
+.events-container {
+	display: flex;
+}
+
+.date {
+	font-weight: 900;
+	color: black;
+}
+
+
+/* remove Camps submenu heading */
+#main-nav.vertical.menu.dropdown ul:before{
+	content: '';
+}
+
+#main-nav .is-dropdown-submenu-parent ul{
+	background: white !important;
+	box-shadow: -2px 4px 7px 0 rgba(0,0,0,0.2);
+}
+
+#main-nav li:not(:last-child) {
+	border-bottom: 1px solid #cacaca;
+}
+
+@media screen and (min-width: 640px) {
+
+
+#main-nav .menu-item:hover {
+		color: white;
+    background-position:left bottom;
+}
+
+#site-navigation #main-nav li a:hover {
+	color: white;
+}
+
+#site-navigation .menu .current-menu-ancestor > a, #site-navigation #main-nav.menu .current-menu-item a:hover {
+	color: #eb0707;
+}
+}
+
+
+.site-header-menu .input-group-label {
+	border: 2px solid #eb0707;
+	border-right: none
+}
+
+.site-header-menu .input-group-button {
+	border: 2px solid #eb0707;
+}
+
+.side-slide-menu-open #mastInsert .input-group-label, .side-slide-menu-open #mastInsert .input-group-field, .side-slide-menu-open #mastInsert .input-group-button {
+	border: 2px solid #eb0707;
+}
+
+.site-header-menu .input-group-button {
+	border-style: solid;
+	border-left: none;
+}
+
+.curtain-menu-button-toggle, .side-slide-menu-button-toggle {
+	border: 1px solid red;
+}
+
+.side-slide-menu-wrapper #main-nav .is-dropdown-submenu{
+	padding: 1.5rem;
+}
+
+/* Menu list item color */
+#site-navigation .menu li a, #site-navigation #main-nav.menu .current-menu-item a {
+	color: #444444;
+}
+
+.act-spacer{
+  color:#FF0000; 
+  text-align: center; 
+  margin-bottom: 0rem;
+	font-size: 14px;
+}
+
+/* buttons on acts */
+.buttonization {
+		padding: 5px 10px;
+		width: 85% !important;
+    font-family:  Helvetica,"Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    color: #fefefe;
+    width: 100%;
+    background: #eb0707;
+/*     background-color: #fefefe; */
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.25);
+/*     box-shadow: none; */
+    border-radius: 100px;
+    transform: translateY(0);
+    transition: all 0.2s;
+    text-align: center;
+}
+
+/* team standings  */
+.team_logo_box {
+	background: #f3f3f3;
+	transform: skew(-25deg);
+	border-right: 2px solid gray;
+}
+
+.team_logo_box img{
+	transform: skew(25deg) translate(50%,-50%);
+	box-shadow: none;
+}
+
+.opp_logo_box {
+	background: #f3f3f3;
+	width: 244px;
+	transform: skew(25deg) translateX(50%);
+	border-left: 2px solid gray;
+}
+
+.opp_logo_box img{
+	transform: skew(-25deg) translate(-130%,-50%);
+	box-shadow: none;
+}
+
+/* overrides */
+.green-border {
+	border: red solid 1px;
+}
+
+.button {
+	border: 1px solid red;align-content
+}
+
+.button:hover {
+	background: red;
+	color: white;
+}
+
+a.button.expanded.tiny-margin-bottom {
+    color: #fefefe;
+}
+
+a.button.expanded.tiny-margin-bottom:hover {
+    color: #0a0a0a;
+}
+
+/*for the events section  */
+
+.events-container{
+	justify-content: center;
+}
+/*  */
+
+
+/*  about section */
+.mission-statement-heading {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background: white;
+    z-index: 90;
+    position: relative;
+    top: 15%;
+    left: 10%;
+    width: 81%;
+    line-height: 3rem;
+}
+
+.design-square-gray {
+    position: absolute;
+    top: -37px;
+    left: 2%;
+}
+
+.design-square-orange {
+    position: absolute;
+    bottom: -45px;
+    right: -3%;
+    transform: rotate(180deg);
+}
+
+/* main logos */
+.title-logos img {
+		max-height: 138px;
+    position: relative;
+    top: 21px;
+    left: -20px;
+    width: 186px;
+}
+
+.powered-container {
+  opacity: 0.5;
+  font-size: 14px;
+  position: relative;
+  left: -59px;
+	top: 0;
+	  margin: auto 1rem;
+  padding: 5px 15px;
+  max-height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.powered-container p {
+	font-family: eurostile-extended, sans-serif;
+	font-size: 12px;
+}
+
+.main-logo:hover, .secondary-logo:hover{
+	background: none;
+}
+
+/*  */
+
+@media print, screen and (min-width: 40em){
+.grid-margin-x > .medium-5 {
+	width: auto;
+}
+}
+
+.curtain-menu-button-toggle, .side-slide-menu-button-toggle {
+    border: none;
+}
+
+/* secondary menu open */
+/* position: absolute;
+width: auto;
+height: auto;
+left: -119%;
+top: 0px;
+background: white;
+border: 1px solid red;
+padding: 1rem; */
+
+
+/*header buttons next to menu  */
+
+#site-logo-bar {
+    height: 100%;
+    color: #0A0A0A;
+}
+
+@media screen and (min-width: 640px){
+
+	#title-nav {
+    width: 530%;
+	}
+	
+
+}
+
+.register-button{
+	right: 19rem;
+}
+
+@media screen and (max-width: 640px) {
+	.register-button {
+    right: 5rem;
+}
+}
+
+button, .button {
+    border: #eb0707 solid 1px;
+}
+
+
+/*  gallery section*/
+
+.posts__container article .entry-header{
+	padding-bottom: 0rem;
+}
+
+.posts__container article .entry-header .entry-meta{
+	border-bottom: none;
+	padding-bottom: 0rem;
+}
+
+.posts__container {
+/*     padding-left: 6pc; */
+}
+
+/*  */
+
+/* product pages */
+
+/* .gset .button:hover, .gset .button:focus {
+    color: #fefefe;
+}
+ */
+.button:hover{
+	background: #fefefe;
+}
+
+/*  */
+
+/* checkout  */
+
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box{
+	background-color: #FFCCCB;
+	border: #eb0707 solid 1px;
+}
+
+#add_payment_method #payment div.payment_box::before, .woocommerce-cart #payment div.payment_box::before, .woocommerce-checkout #payment div.payment_box::before{
+	border: 0.9em solid #eb0707;
+	border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.orbit-previous,.orbit-next{
+	color: black;
+	transition: all .2s;
+}
+.orbit-previous:hover,.orbit-next:hover{
+	color: red;
+	cursor: pointer;
+}
+
+/*  */
+
+body {
+	background: #fefefe;
+}
+
+/* .event-2 {
+    padding-left: 5rem;
+} */
+
+
+/* for videos */
+
+
+figure.wp-block-video.aligncenter {
+    width: 50%;
+}
+
+/*  */
+
+
+/* passport logo in menu */
+
+#menu-item-152 a::before{ 
+	position:relative;
+	left:-.5rem;
+	top:0px;
+	z-index: 1;
+	  content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/09/Passport-P-2023.png) no-repeat;
+  background-size: 40px 30px;
+	margin-left: -7px;
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+
+/* hotel section */
+
+.wrapper-staff .accordion-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fefefe;
+    background: #eb0707;
+}
+
+/*  */
+
+/* contact image */
+
+.cont-img {
+    border-style: solid;
+}
+
+/*  */
+
+p.date.margin-bottom-events {
+    margin-bottom: 30px;
+}
+
+.icons {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/* 	display: none !important; */
+	text-align: center;
+	margin-top: 8rem;
+	padding-top: 1rem;
+	font-weight: 700;
+	border: 4px solid red;
+	outline: 6px solid black;
+	outline-offset: 10px;
+}
+
+.icons:before {
+    position: absolute;
+    top: -95px;
+/*     left: 397px; */
+    content: "";
+    background: url(https://sportspassports.com/wp-content/themes/g365-press/assets/tiny-logos/Passport-2023.png);
+    width: 303px;
+    height: 116px;
+    background-size: 297px 121px;
+    background-color: #fefefe;
+}
+
+.icons .wp-block-columns {
+	margin-bottom: 0;
+}
+
+
+/* tile headers */
+
+.tile .article-info{
+	background: #0a0a0a;
+	opacity: .7;
+	display: none;
+}
+
+.tile .article-info:hover{
+	background: #eb0707;
+	opacity: .7;
+}
+
+.tile:hover .article-info{
+	background: #eb0707;
+	opacity: .7;
+}
+
+/*  */
+
+
+/* mobile updates */
+
+@media screen and (max-width: 640px){
+	
+	h1.article-info{
+		display: none;
+	}
+	
+		.mission-statement-heading {
+		font-size: 61%;
+		line-height: 1rem;
+		
+	}
+	
+		.design-square-gray {
+    position: absolute;
+    top: -17px;
+    left: 5%;
+    width: 63px;
+}
+	
+	.design-square-orange {
+    position: absolute;
+    bottom: -12px;
+    right: 6%;
+    width: 63px;
+    transform: rotate(180deg);
+}
+	
+	.icons{
+		flex-wrap: unset !important;
+		outline-offset: 3px
+	}
+	
+	.parent-2{
+		top: 27%
+	}
+	
+	
+	.register-button{
+		padding: 11px 36px;
+		right: 5rem;
+		top: 1%;
+	}
+	
+	.title-logos img {
+    max-height: 138px;
+    position: relative;
+    top: 24px;
+    left: -31px;
+    width: 186px;
+}
+	
+	
+	
+/* 	events */
+/* 	.event-2 {
+    padding-left: 1rem;
+} */
+	
+	.max-button.input-group > :last-child > .button {
+		border-top: none;
+		border-left: none;
+	}
+	
+}
+
+
+/* testimonial */
+blockquote {
+	margin: 0 auto;
+	position: relative;
+	background: linear-gradient(to right, #000000, #EB5757);
+	background-position: -15rem;
+	border-left: none;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px 2px rgba(0,0,0,0.2);
+	padding: 0 4rem 0 4rem;
+	width: 70%;
+	margin-bottom: 2rem;
+}
+
+blockquote:before {
+	position: absolute;
+	content: "\201C";
+	font-size: 6rem;
+	font-weight: bold;
+	color: red;
+	left: 0.5rem;
+	top: -1rem;
+}
+
+
+blockquote:after {
+	position: absolute;
+	content: "\201D";
+	font-size: 6rem;
+	font-weight: bold;
+	color: red;
+	right: 0.5rem;
+	bottom: -3rem;
+}
+
+blockquote p, blockquote cite {
+	background: white;
+	padding: 1rem 2rem;
+}
+
+blockquote p {
+	margin-bottom: 0;
+	color: black;
+}
+
+blockquote cite {
+	color: black;
+}
+
+@media screen and (max-width: 640px) {
+blockquote {
+	position: relative;
+	background: linear-gradient(to right, #000000, #EB5757);
+/* 	background-position: -10rem; */
+	border-left: none;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px 2px rgba(0,0,0,0.2);
+	padding: 3rem 0 0;
+	margin-bottom: 1rem;
+}
+
+blockquote:before {
+	font-size: 5rem;
+	top: -1rem;
+}
+	
+	.location-event {
+    font-size: 72%;
+}
+	
+	p.date.no-margin-bottom.dates-event {
+    font-size: 72%;
+}
+	
+	p.date.tiny-margin-bottom.ncaa-cert {
+    font-size: 50%;
+}
+	
+	
+	.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    flex-basis: 24%!important;
+}
+	
+	p.date.margin-bottom-events {
+    margin-bottom: 22px;
+}
+	
+	.event-spacing {
+    display: none;
+}
+	
+	#content{
+		padding-bottom: 0rem;
+	}
+	
+	.icons figcaption {
+    font-size: 66%;
+}
+	
+	
+	.icons:before {
+    position: absolute;
+    top: -82px;
+/*     left: 46px; */
+    content: "";
+    background: url(https://sportspassports.com/wp-content/themes/g365-press/assets/tiny-logos/Passport-2023.png);
+    width: 263px;
+    height: 98px;
+    background-size: 258px 99px;
+    background-color: #fefefe;
+}
+	
+	
+	.contact-info {
+    font-size: 86%;
+}
+	
+}
+
+/* padding override */
+#menu-item-152 {
+	padding-left: 0;
+}
+
+/*  */
+
+/* contact section mobile */
+
+@media (max-width: 781px){
+.wp-block-columns.contact-section:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    flex-basis: 100%!important;
+}
+}
+
+/*  */
+
+
+/* mobile product pages */
+
+@media screen and (max-width: 640px){
+	
+	.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images.small-12.medium-3.cell.small-12.medium-3 {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+	
+.entry-summary .medium-padding {
+    padding: 2rem;
+    padding-top: 12rem;
+}
+	
+	blockquote{
+		padding: 2rem 0 0;
+		width: 97%;
+		margin-bottom: 2rem;
+	}
+	
+	blockquote p {
+    font-size: 60%;
+}
+	
+	.wp-container-1.wp-block-column {
+    font-size: 50%;
+}
+	
+	.wp-container-4{
+		display: block!important;
+	}
+	
+	.rule-buttons .button.expanded {
+    font-size: 131%;
+}
+	
+	.product-images {
+    width: 101%;
+    height: 30%;
+}
+	
+	figure.wp-block-video.aligncenter {
+    width: 72%;
+}
+	
+
+	
+/* 	.button-single{
+		width: 100% !important;
+	} */
+	
+}
+
+
+
+ul[data-parent_title="Events"] .nested .nested{
+/* 	display: none; */
+	visibility: hidden;
+	position: absolute;
+	left: -260px;
+	background: white;
+	width: 300px;
+	bottom: 0;
+	border-left: 1px solid red;
+/* 	border-right: none;
+	border-bottom: none; */
+	padding: 1rem;
+	transition-delay: 1s;
+	transition: visibility;
+}
+#menu-item-2996:hover + .nested {
+	visibility: visible;
+}
+
+ul[data-parent_title="Events"] .nested .nested:hover {
+	visibility: visible;
+}
+
+ul[data-parent_title="Events"] .nested .nested{
+	width: 289px;
+    bottom: 86px;
+}
+@media screen and (max-width: 640px) {
+	#menu-item-2996 {
+  	border: 1px solid #cccccc;
+		border-bottom: none;
+		margin-bottom: 0;
+		background: #f2f2f2;
+	}
+	
+	#menu-item-2996:after {
+		display: none;
+	}
+	
+ul[data-parent_title="Events"] .nested .nested{
+  padding-left: 25px;
+  padding-right: 17px;
+	visibility: visible;
+	position: static;
+	background: white;
+	width: 100%;
+	border: 1px solid #cccccc;
+	border-top: none;
+/* 	border-right: none;
+	border-bottom: none; */
+}
+}
+
+/*  */
+
+
+/* single event front page */
+
+.act.single-event {
+    width: 30%;
+}
+
+	.event-1.img-edit {
+    width: 33.5% !important;
+}
+
+.button-single {
+    padding: 5px 10px;
+    width: 90% !important;
+    font-family: Helvetica,"Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    color: #fefefe;
+    width: 100%;
+    background: #eb0707;
+    /* background-color: #fefefe; */
+    box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 25%);
+    /* box-shadow: none; */
+    border-radius: 100px;
+    transform: translateY(0);
+    transition: all 0.2s;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+	
+	.event-1.img-edit {
+    width: 100% !important;
+}
+	
+	.button-single {
+    width: 95% !important;
+	}
+		
+	.media-registration {
+    width: 100% !important;
+}
+	
+	article#post-155 {
+    padding-top: 12px;
+}
+	
+}
+
+@media screen and (max-width: 640px) {
+	.register-button {
+		padding: 11px 30px;
+		box-shadow: none;
+		right: 6rem;
+		top: 5px;
+/* 	}
+	.register-button a {
+		color: red;
+	} */
+}
+	
+}
+	
+	
+/* current fix for columns in image gallery	 */
+	
+	figure.is-layout-flex.wp-block-gallery-12.wp-block-gallery.has-nested-images.columns-2.is-cropped {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+	
+.product-images {
+    display: flex!important;
+    flex-wrap: wrap!important;
+}
+
+
+/* gold teams */
+.team-container{
+	padding-bottom: 0px;
+}
+
+.team-links {
+    top: 32px;
+}
+
+@media screen and (max-width: 640px) {
+	
+	.team-container {
+    flex-direction: column;
+		width: 118%;
+		padding-bottom: 0px;
+}
+	
+	.column-1 {
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+	
+	.column-2 {
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+	
+	.column-2 .team-links {
+    left: 198px;
+    position: absolute;
+    top: 142px;
+}
+
+.team-links {
+    top: auto;
+}
+	
+	img.school-logo {
+    width: 132px;
+    position: relative;
+    left: 55px;
+}
+	
+	.column-1 .team-links {
+    left: 198px;
+    position: absolute;
+    top: 41px;
+}
+	
+	.team-name {
+    font-size: 50%;
+    font-weight: bolder;
+}
+	
+	.mobile-1 {
+    border: solid 3px #f1f1f1;
+    background: #f1f1f1;
+}
+	
+	.mobile-2 {
+    border: solid 3px #fefefe;
+    background: #fefefe;
+}
+	
+}
+
+@media print, screen and (min-width: 40em){
+	
+	.img-2 {
+    width: 30rem;
+}
+	
+}
+
+
+#site-navigation.side-slide-menu-wrapper .downplay a {
+    background: #3a3a3a;
+    color: #a4a4a4;
+    border-bottom: #0a0a0a solid 1px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* live blog mobile */
+@media screen and (max-width: 640px) {
+.postid-3271 .wp-container-7 {
+	flex-direction: column;
+}
+	
+}
+
+/* 
+.event-1.img-edit {
+    margin-top: 19px;
+    width: 31.5% !important;
+}
+
+p.act-spacer.encore-title {
+    margin-top: 31px;
+} */
+
+.wp-image-1212 {
+    max-height: 76vh;
+    object-fit: cover;
+}
+
+
+.orbit-container.college-container{
+height: 144px !important;
+	text-align: center;
+}
+
+img.orbit-image.college-image {
+    height: 144px;
+    width: 150px;
+}
+
+
+@media screen and (max-width: 640px) {
+	
+	a.blog-4098 {
+    font-size: 48%;
+}
+	
+}
+
+#menu-item-22:hover > ul {
+	display: block;
+}
+
+@media screen and (min-width: 640px) {
+	.parent-2 div {
+		margin: 0 auto !important;
+	}
+	
+	.parent-2 .wp-container-9 {
+		position: static !important;
+	}
+}
+
+.title-logos img {
+    max-height: 138px;
+    position: relative;
+    top: 0px;
+    left: -24px;
+    width: 115px;
+/* 	padding-left: 6%; */
+}
+
+/* disable calendar menu hover (breaks style) */
+
+#menu-item-5759:hover{
+	background: none;
+	border: none;
+}
+
+
+
+#menu-item-22 .menu-item-type-post_type > a:hover{
+	border: rgba(235, 7, 7,.9) solid 1px;
+    background: linear-gradient(rgba(235, 7, 7, 0.2), rgba(235, 7, 7, 0.6));
+}
+
+#menu-item-22 .menu-item-type-post_type a {
+    height: 65px;
+    margin-left: 0rem !important;
+    padding-left: 0.5rem !important;
+    width: 72% !important;
+}
+	
+	#menu-item-22 .menu-item-type-post_type {
+    height: 5rem !important;
+		margin-bottom: rem;
+}
+
+	@media screen and (min-width: 40em){
+		.side-slide-menu-wrapper #main-nav .is-dropdown-submenu a, #main-nav.menu-mega a {
+    padding: 0.26rem 1.1rem;
+	}
+		.side-slide-menu-wrapper #main-nav .is-dropdown-submenu 		{
+			max-width: 80% !important;
+		}
+}
+
+	.is-submenu-item div::after {
+    font-size: 90%;
+    /* position: relative; */
+    left: 10px;
+    top: -47px;
+    color: #0A0A16;
+		pointer-events: none;
+}
+
+/* 10/3/2023 */
+
+@media screen and (max-width: 640px){
+
+div#stage-info--space {
+  display: none;
+}
+.mobile-break {
+    display: none;
+}
+	
+}
+
+@media screen and (max-width: 430px) {.event-1.img-edit {width: 91% !important;} .icons{margin-top: 6rem;}}
+
+@media screen and (max-width: 390px) {.event-1.img-edit {width: 100% !important;}}
+
+@media screen and (max-width: 360px) {.event-1.img-edit {width: 107% !important;}}
+
+
+.img-edit {
+    width: 41.5%;
+}
+
+.event-2.memorial-magic {
+    width: 38.5%;
+}
+
+img.act.mem-img {
+    width: 78%;
+}
+
+/* big screen break point fix */
+
+@media screen and (min-width: 460px) {
+	#title-nav {
+		flex-wrap: nowrap !important
+	}
+}
+
+@media screen and (min-width:640px) {
+	#menu-item-5915::after {
+		margin-top: 0;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+	#menu-item-6051::after {
+		margin-top: 1.5rem;
+	}
+	#menu-item-6051 {
+		margin-bottom: 1rem;
+	}
+}
+
+
+
+.passport-menu img {
+    /* max-height: 12px; */
+    transform: scale(2.5);
+    position: relative;
+    top: -5px;
+    right: 1rem;
+    padding: 0px 10px;
+    width: 60px;
+    padding-right: 0rem;
+}
+
+/* events container */
+.events-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 280rem;
+}
+
+@media screen and (min-width: 480px) {
+	.event-1, .event-2 {
+	width: 30%;
+	padding: 5px;
+	margin: 5px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.events-container {
+		margin-bottom: 90rem;
+	}
+}
+
+.mmd-main {
+	margin-bottom: 2.8rem !important;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.margin-top-1rem {
+	margin-top: 1rem;
+}
+
+.date {
+	font-size: 80%;
+}
+
+.tokenImage {
+	filter: none;
+}
+
+
+/* hide woocomm checkout stuff 2024 */
+.woocommerce-checkout h3 {
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 640px) {
+.woocommerce-billing-fields__field-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.woocommerce-billing-fields .form-row {
+	width: 49%;
+}
+	
+}
+
+.woocommerce-billing-fields label {
+	display: none;
+}
+
+
+
+/*  woocomm cart hide payment options  */
+.wc_payment_method > label,
+#wc-stripe-cc-form label,
+.payment_box:before {
+    display: none !important;
+}
+
+.woocommerce-checkout #payment div.payment_box {
+	background: none;
+	border: none;
+}
+
+.woocommerce-checkout h2.entry-title,
+.woocommerce-checkout h3.entry-title{
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+	#menu-item-22 .nested div a 		{
+	font-size: .8rem;
+		font-weight:700;
+	}
+	
+	#menu-item-22 .nested div::after
+  {
+	font-size: .75rem;
+	padding-left: 1.2rem;
+	}
+	
+	#menu-item-22 .menu-item {
+		width: 33%;
+		margin-top: 0;
+	}
+}
+
+.powered-container {
+	border: none;
+}
+
+#site-logo-bar {
+	margin-left: 2rem;
+}
+
+/* home screen level fixes events */
+@media screen and (min-width: 640px) {
+	.events-container .event-1:nth-child(7) .location-event  {
+	margin-bottom: 3.1rem;		
+}
+	
+	.events-container .event-1:nth-child(11) .location-event {
+		margin-bottom:1.5rem;
+	}
+
+/* increase spacing for attending colleges */
+
+	.orbit-figure {
+		display: flex;
+		justify-content: space-around
+	}
+}
+
+/* hover color change for menu */
+
+#menu-item-140 a:hover, #menu-item-141 a:hover, #menu-item-138 a:hover, #menu-item-139 a:hover, #menu-item-28 a:hover, #menu-item-33 a:hover, #menu-item-34 a:hover, #menu-item-178 a:hover, #menu-item-336 a:hover {
+	color: #eb0707 !important;
+}
+
+/* adding location squares */
+
+.facility__box--product {
+	  width: 70%;
+    margin-bottom: 2rem;
+    height: auto;
+}
+
+.facility__box--product h2{
+	color: #0087e1;
+}
+
+.facility__box--product p{
+	margin-bottom: 0;
+}
+@media screen and (min-width: 640px) {
+	.facility__box--product {
+/* 		min-height: 250px; */
+	}
+	
+	#facility-ladera {
+		  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 70%, rgba(255, 255, 255, 0.4) 100%), url("https://opengympremier.com/wp-content/uploads/2023/01/ladera-horizontal.png");
+		background-size: cover;
+}
+	
+	
+	#facility-newport-product {
+		background: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.4) 100%), url("https://opengympremier.com/wp-content/uploads/2023/03/Grand-Opening-Newport-2023-25.jpg");
+		background-size: cover;
+	}
+	
+	
+	#facility-anaheim {
+	background-image: linear-gradient(105deg, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0.4) 100%),url('https://opengympremier.com/wp-content/uploads/2023/04/OGP-Anaheim.jpg');
+	background-size: cover;
+}
+	
+	#facility-oakland {
+	background-image: linear-gradient(105deg, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0.4) 100%),url('https://opengympremier.com/wp-content/uploads/2023/04/OGP-Anaheim.jpg');
+	background-size: cover;
+}
+}
+
+.facility__box {
+  border-radius: 3px;
+  -webkit-box-shadow:0 2px 4px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px 2px rgba(0,0,0,0.2);
+	transition: box-shadow .2s;
+}
+
+a.facility__box:hover {
+	box-shadow: 0 0 8px 6px #fe5800;
+}
+
+.facility__info {
+  padding: 1rem;
+	color: #333333;
+}
+
+.no-underline {
+	text-decoration: none !important;
+}
+
+#product-2630 .wp-block-embed__wrapper, #product-5909 .wp-block-embed__wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+#product-5863 .wp-container-core-columns-layout-1, #product-2961 .wp-container-core-columns-layout-1 {
+	display: flex;
+	align-items: center !important;
+	margin-bottom: 1rem;
+}
+
+.input-group-label {
+	padding: 0 1rem;
+}
+
+
+#billing_country_field,
+.select2{
+	margin-bottom: 1rem;
+}
+.woocommerce-checkout  .woocommerce-additional-fields {
+/* 	margin-top: 3.1rem; */
+}
+
+
+	
+/* select promo row */
+.woocommerce-checkout .min-width.text-left {
+	text-align: center;
+	border-top: 1px solid #cacaca;
+	padding: 10px 0;
+}
+
+.woocommerce table.shop_table td {
+ border-top: none;	
+}
+
+#wc_cart_form thead th{
+	border-bottom: 1px solid rgba(10,10,10,.1);
+}
+
+#wc_cart_form thead th:last-of-type,
+#wc_cart_form .cart_item td:last-of-type {
+	text-align: center;
+}
+
+.woocommerce .cart_item {
+	font-size: 1rem;
+}
+#wc_cart_form tr:has(.actions) {
+	background: none;
+	border-top: none;
+}
+	.coupon .button {
+	  	background: none;
+		border-color: #cacaca;
+		color: #bbb;
+		font-size: 1rem;
+	}
+
+.payment_box {
+	margin-top: 0 !important;
+}
+
+#order_review  .woocommerce-checkout-review-order-table.shop_table {
+	border-collapse: collapse;
+}
+
+#order_review tfoot th,
+#order_review tfoot td{
+	border: none;
+}
+
+#order_review .cart_item td{
+	padding: 12px;
+}
+
+.cart-subtotal:not(.recurring-total),
+.recurring-totals {
+	border-top: 1px solid #cacaca;
+}
+.waiver-container {
+	margin-top: 2rem;
+}
+	
+	.waiver-container p,
+	.waiver-container blockquote {
+		display: none;
+	}
+
+	.woocommerce-checkout h2 {
+		font-size: 1.75rem;
+		text-transform: uppercase;
+	}
+	
+	.woocommerce-checkout tbody tr:nth-of-type(even) {
+		background: none;
+	}
+
+	.woocommerce-additional-fields label {
+		display: none;
+	}
+	
+	.woocommerce-additional-fields p{
+	margin-bottom: 0;	
+	}
+/* end select promo row */
+
+.current-menu-item a:hover {
+	color: white !important;
+}
+
+#product-5863 .wp-block-video video {
+	max-width: 47%;
+}
+
+#product-5863 .wp-block-video {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+/* new stage logo top margin */
+
+@media screen and (min-width: 640px) {
+	.parent-2 .img-2 {
+		margin-top: 1rem;
+	}
+	
+	#menu-item-22 .nested div a 	{
+		display: inline-block;
+		width: 100% !important;
+	}
+	
+		#menu-item-22 .nested div a	{
+		padding-left: 3.7rem !important;
+	}
+	
+	#menu-item-22 .nested div::after 	{
+		padding-left: 3.2rem;
+	}
+	
+	#menu-item-22 .nested div a::before 	{
+		margin-left: 1.7rem;
+	}
+}
+
+/* hide orbit bullets */
+
+.orbit-bullets {
+	display: none;
+}
+
+#stage-contact {
+	margin-bottom: 1rem;
+}
+
+.wp-block-image.size-full.is-style-default.cont-img {
+	margin-bottom: 1rem;
+}
+
+#hbspt-form-aeb49b6c-ed5a-42e6-9b42-f49962bb720d {
+	margin-top: 1rem;
+}
+
+/* hide adidas and live barn */
+.flex.align-spaced figure {
+	display: none;
+}
+
+/* remove icons under logo */
+.parent-2 .wp-block-columns.is-layout-flex.wp-container-9 {
+	display: none;
+}
+
+.parent-2 {
+	top: 20%
+}
+
+.page-id-6536 .button {
+	color: black;
+}
+
+.rulesButtonContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#product-5863 .medium-margin-bottom {
+	margin-bottom: 1rem;
+}
+
+#menu-item-6420 h5 {
+	color: black !important;
+}
+
+@media screen and (max-width: 640px) {
+	.hero__video {
+		height: 30vh;
+	}
+	.parent .parent-2 {
+		top: 30%
+	}
+}
+
+
+/* team info sizing */
+@media screen and (min-width: 640px) {
+	.woocommerce-additional-fields .item:nth-of-type(4n+1) {
+	width: 100% !important;
+}
+
+.woocommerce-additional-fields h3 +  .item {
+	width: 98% !important;
+}
+.woocommerce-additional-fields .item {
+	display: inline-block;
+}
+.woocommerce-additional-fields .item:nth-of-type(4n+4),.woocommerce-additional-fields .item:nth-of-type(4n+5) {
+	width: 49% !important;
+/* 	background: red; */
+	margin: 0.1rem;
+}
+	
+	.woocommerce-additional-fields .item:nth-of-type(4n+2),.woocommerce-additional-fields .item:nth-of-type(4n+ 3) {
+/* 	background: blue; */
+		width: 98% !important;
+}
+	
+}
+
+.postid-5907 .medium-margin-bottom {
+	margin-bottom: 1rem;
+}
+
+#menu-item-6961 ul li a {
+	font-weight: bold;
+}
+
+#menu-item-6961 .menu a {
+position: relative;
+	left: 50px;
+	
+}
+
+#menu-item-6961 .menu a:before {
+	left: -40px;
+}
+
+#menu-item-6961 .menu a:after {
+	left: 5px;
+	top: 40px;
+	font-weight: 500;
+	text-transform: initial;
+	font-family: montserrat, sans-serif;
+	letter-spacing: 1px;
+}
+
+
+#menu-item-7592 a::before, #menu-item-5895 a::before{ 
+	position:absolute;
+	z-index: 1;
+	  content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/11/jr3ssbblack-1.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+#menu-item-7592 a::after, #menu-item-5895 a::after {
+	content: 'Oct - Dec, 2024 \A OGP Ladera | OGP Oakland';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+#menu-item-5895 {
+	padding-left: 2.5rem;
+}
+
+#menu-item-6968 a::before, #menu-item-2949 a::before{ 
+	position:absolute;
+	z-index: 1;
+	content: '';
+  background: url(http://thestagecircuit.com/wp-content/uploads/2022/12/The-Stage-Logo-Act-II-1.png) no-repeat;
+  background-size: 60px 50px;
+	width: 60px;
+	height: 60px;
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+#menu-item-6968 a::after, #menu-item-2949 a::after {
+	content: 'Apr 26 - 27, 2025 \A OGP Anaheim';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+#menu-item-6971 a::before, #menu-item-6060 a::before{ 
+	position:absolute;
+	z-index: 1;
+	content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/12/DesertDebut.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+/* 	margin-left: -7px; */
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+#menu-item-6971 a::after, #menu-item-6060 a::after {
+	content: 'May 3 - 4, 2025 \A Millennium High School (AZ)';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+#menu-item-6060 {
+	padding-left: 2.5rem;
+}
+
+#menu-item-6972 a::before, #menu-item-2948 a::before{ 
+	position:absolute;
+	z-index: 1;
+	content: '';
+  background: url(http://thestagecircuit.com/wp-content/uploads/2022/12/Stage-The-Show-Logo-1.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+  padding-left: 40px; 
+	padding-bottom: 34px;
+}
+
+#menu-item-6972 a::after,
+#menu-item-2948 a::after {
+	content: 'May 10 - 11, 2024 \A OGP Anaheim | OGP Oakland';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+
+#menu-item-6973 a::before, #menu-item-5914 a::before{ 
+	position:absolute;
+	z-index: 1;
+	content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/11/Stage-Spring-Live-400x300-1.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+#menu-item-6973 a::after, #menu-item-5914 a::after {
+	content: 'May 17 - 18, 2025 \A OGP Anaheim | OGP Oakland';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+#menu-item-6974 a::before, #menu-item-5915 a::before{ 
+	position:absolute;
+	z-index: 1;
+	content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/10/MMD-Crest-TheStage250X250.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+#menu-item-6974 a::after, #menu-item-5915 a::after {
+	content: 'May 24 - 25, 2025 \A OGP Anaheim | OGP Ladera';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+#menu-item-5915  {
+	padding-left: 2.5rem;
+}
+
+#menu-item-5915 a::before {
+	left: -3.5rem;
+}
+
+#menu-item-5915::after {
+	padding-left: 0;
+	padding-top: .5rem;
+}
+
+#menu-item-6967 a::before, #menu-item-2947 a::before{ 
+	position:absolute;
+	z-index: 1;
+	content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2022/12/Stage-Final-Act-Logo.png) no-repeat;
+  background-size: 60px 55px;
+	width: 60px;
+	height: 60px;
+	margin-left: -7px;
+  padding-left: 40px; 
+	padding-bottom: 38px;
+}
+
+#menu-item-6967 a::after, #menu-item-2947 a::after {
+	content: 'Jul 11 - 14, 2024 \A OGP Anaheim';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+
+#menu-item-6975 a::before, #menu-item-2967 a::before{ 
+	position:absolute;
+	z-index: 1;
+	content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/03/Stage-Encore.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+  padding-left: 40px; 
+	padding-bottom: 38px;
+}
+
+#menu-item-6975 a::after, #menu-item-2967 a::after {
+	content: 'Jul 19 - 21, 2024 \A OGP Anaheim | OGP Oakland';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+
+#menu-item-8131 a::before, #menu-item-8995 a::before{ 
+	position:absolute;
+	z-index: 1;
+	  content: '';
+  background: url(http://thestagecircuit.com/wp-content/uploads/2022/12/The-Stage-Logo-Act-I-1.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+#menu-item-8131, #{
+	padding-left: 30px;
+	padding-right: 40px;
+}
+
+#menu-item-8131 a:after, #menu-item-8995 a::after {
+	content: 'Apr 12 - 13, 2025 \A OGP Anaheim';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+#menu-item-8995 {
+	padding-left: 2.5rem;
+}
+
+#menu-item-8995 a::before {
+	left: -3.5rem;
+	
+}
+
+#menu-item-8995 a::after {
+	padding-left: 0;
+	padding-top: .5rem;
+}
+
+#menu-item-8129 a::before, #menu-item-8994 a::before{ 
+	position:absolute;
+	z-index: 1;
+	  content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/11/The-Preview-400x300-1.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+/* 	margin-left: -7px; */
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+#menu-item-8129 a::after, #menu-item-8994 a::after {
+	content: 'March 22 - 30, 2025 \A OGP Ladera';
+	white-space: pre-wrap;
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+}
+
+
+#menu-item-8132{
+	position: relative;
+	margin-top: 0;
+}
+#menu-item-8132 a::before, #menu-item-8996 a::before{ 
+	position:absolute;
+	z-index: 1;
+	  content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/12/NWPremier.png) no-repeat;
+  background-size: 55px 45px;
+	width: 60px;
+	height: 60px;
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+
+#menu-item-8132 a::after, #menu-item-8996 a::after {
+	content: 'March 29 - 30, 2025 \A Auburn High School (WA)';
+	display: block;
+	line-height: 1;
+	padding-left: 1rem;
+	font-size: .8rem;
+	white-space: pre-wrap;
+}
+
+#menu-item-8996 {
+	padding-left: 2.5rem;
+}
+
+#menu-item-8996 a::before {
+	left: -3.5rem;
+}
+
+#menu-item-8996::after {
+	padding-left: 0;
+	padding-top: .5rem;
+}
+
+.hero__video {
+	object-fit: contain;
+}
+
+#menu-item-3266 a {
+	padding: 1rem .35rem;
+}
+
+@media screen and (max-width: 640px) {
+#menu-item-2950 a::before{ 
+	left: -3rem;
+}
+	#menu-item-2996 a::before{ 
+	display: none;
+}
+	#menu-item-3006 a::before {
+		left: -3rem !important;
+		top: 0px !important;
+	}
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+		display: none;
+}
+
+
+@media screen and (max-width: 640px) {
+/*   magic memorial day product box img fix */
+	#product-5911 .attachment-shop_single {
+  transform: scale(0.6);
+  transform-origin: top;
+}
+	/* 	3ssb product box img fix */
+	#product-5863 .woocommerce-product-gallery__wrapper {
+		  display: flex;
+  justify-content: center;
+	}
+	
+	#product-5863 .is-layout-flex {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.medium-padding {
+		padding: 1rem;
+	}
+	
+	.event-1 {
+		width: 50%;
+	}
+	
+	.events-container {
+		height: auto;
+		margin-bottom: 0;
+		align-items: end;
+		justify-content: space-around;
+	}	
+	
+	.orbit {
+		margin: 0;
+	}
+	.orbit-container.college-container {
+		display: flex;
+		align-items: center;
+	}
+	
+	img.orbit-image.college-image {
+		width: 60px;
+		height: AUTO;
+	}
+}
+
+#menu-item-8463 {
+	min-width: 9.4rem;
+}
+
+@media screen and (max-width: 640px) {
+#menu-item-3266 a::before{ 
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index: 1;
+	  content: '';
+  background: url(https://thestagecircuit.com/wp-content/uploads/2023/05/adidas-gold.png) no-repeat;
+  background-size: 30px 30px;
+	margin-left: -7px;
+  padding-left: 40px; 
+	padding-bottom: 30px;
+}
+	
+	#site-header-menu .input-group {
+		height: 75%;
+	}
+}
+
+.mission-statement-heading {
+	text-align: center;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	width: 85%;
+	top: 10%;
+}
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow:has(.mission-statement-heading) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+@media screen and (max-width: 640px) {
+	.wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-1.wp-block-columns-is-layout-flex:has(.mission-statement-heading) {
+		flex-direction: column;
+	}
+	
+	.design-square-orange svg {
+		transform: translate3d(-17px, 0px, 0px) !important
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.mission-statement-heading {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+	.design-square-gray .svg {
+		transform: translate3d(0px, -17px, 0px); !important;
+	}
+	
+	.design-square-orange svg {
+		transform: translate3d(0px, -32px, 0px) !important
+	}
+}
+
+.home .staff.wp-block-gallery.columns-3 .blocks-gallery-item {
+	padding: 10px;
+	max-width: 33%;
+}
+	
+.home .staff.wp-block-gallery.columns-3 .blocks-gallery-item a h5 {
+	text-decoration: underline;
+}
+
+.staff.wp-block-gallery .blocks-gallery-item figure {
+	box-shadow: 4px 8px 6px -6px #0a0a0a;;
+	transform: translateY(0);
+  transition: all .2s;
+}
+
+.staff.wp-block-gallery .blocks-gallery-item figure:hover {
+	box-shadow: 3px 6px 12px 0px #eb0707;
+		transform: translateY(-2px);
+}
